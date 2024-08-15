@@ -97,6 +97,7 @@ footer {
 
 /* Media queries */
 
+/* Mobile phones (max-width: 600px ) */
 @media (max-width: 600px) {
     header h1 {
         font-size: 24px;
@@ -121,5 +122,28 @@ footer {
     .gallery-container img {
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+/* Tablets (min-width: 601px) and max-width: 768px)*/
+
+@media (min-width: 601px) and (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    main {
+        padding-top: 130px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .gallery-container img {
+        width: 48%;
+        margin-bottom: 15px;
     }
 }
