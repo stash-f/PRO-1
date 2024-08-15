@@ -94,3 +94,32 @@ footer {
     color: #fff;
     margin-top: 40px;
 }
+
+/* Media queries */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    main {
+        padding-top: 215px;
+        /* Padding for mobile*/
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
